@@ -1,0 +1,64 @@
+.cardbox {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 320px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .imagebox {
+    display: flex;
+    justify-content: stretch;
+  }
+  img {
+    width: 320px;
+  }
+  .infobox {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+  }
+  .item {
+    text-align: center;
+    width: 100%;
+    outline-style: solid;
+    outline: gray 2px;
+  }
+  .insidebox {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    border-top: 1px solid #dedede;
+  }
+  .logo {
+    display: block;
+    background-color: rgb(230, 230, 230);
+    font-size: 15px;
+    height: 35px;
+    width: 35px;
+    text-align: bottom;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .logobox {
+    background-color: rgb(240, 240, 240);
+  }
+  .lastitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #dedede;
+  }
+  .logotext {
+    position: relative;
+    top: 7px;
+  }
+  
